@@ -1,0 +1,12 @@
+This Section includes , features that maybe included in upcoming future
+But Not guranteed that they will. some might some not.
+@Add Wind10 ConMenu
+@Add easy Context Menu Cleaner
+@make a new readme.md file explains everything
+;_________________________________________________
+;Gui Menu Bar
+;_________________________________________________
+=>Home
+=>File-Open
+=>Help-Shortcut,Readme,Version
+=>Tools-Uninstall Programms, Uninstall Windows Program

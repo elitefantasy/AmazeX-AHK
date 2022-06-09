@@ -1,0 +1,2 @@
+1. First Run (setup.exe)
+2. Run (Amazex Install) <= shortcut in desktop will be created.
