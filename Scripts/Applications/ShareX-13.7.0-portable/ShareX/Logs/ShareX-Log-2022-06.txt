@@ -1446,3 +1446,107 @@ System.ComponentModel.Win32Exception (0x80004005): No application is associated 
 2022-06-09 12:53:36.025 - HotkeyManager started.
 2022-06-09 12:53:36.028 - WatchFolderManager started.
 2022-06-09 12:53:36.549 - Executing: Capture region
+2022-06-09 13:52:09.322 - ShareX starting.
+2022-06-09 13:52:09.325 - Version: 13.7 Portable
+2022-06-09 13:52:09.326 - Build: Release
+2022-06-09 13:52:09.326 - Command line: "E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Tools\..\Applications\ShareX-13.7.0-portable\ShareX.exe"
+2022-06-09 13:52:09.326 - Personal path: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX
+2022-06-09 13:52:09.326 - Personal path detection method: Portable file (E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\Portable)
+2022-06-09 13:52:09.327 - Operating system: Windows 10 Home Single Language (64-bit)
+2022-06-09 13:52:09.327 - Running as elevated process: False
+2022-06-09 13:52:09.333 - Flags: Portable
+2022-06-09 13:52:09.350 - ApplicationConfig load started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\ApplicationConfig.json
+2022-06-09 13:52:09.935 - ApplicationConfig load finished: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\ApplicationConfig.json
+2022-06-09 13:52:09.943 - UploadersConfig load started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\UploadersConfig.json
+2022-06-09 13:52:09.951 - MainForm init started.
+2022-06-09 13:52:10.121 - UploadersConfig load finished: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\UploadersConfig.json
+2022-06-09 13:52:10.127 - HotkeysConfig load started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\HotkeysConfig.json
+2022-06-09 13:52:10.323 - HotkeysConfig load finished: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\HotkeysConfig.json
+2022-06-09 13:52:10.544 - MainForm init finished.
+2022-06-09 13:52:10.770 - Startup time: 1480 ms
+2022-06-09 13:52:10.783 - Hotkey registered: Hotkey: Print Screen, Description: Capture region, Job: RectangleRegion
+2022-06-09 13:52:10.784 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2022-06-09 13:52:10.784 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2022-06-09 13:52:10.784 - Hotkey registered: Hotkey: Ctrl + Shift + Alt + C, Description: Upload from clipboard, Job: ClipboardUpload
+2022-06-09 13:52:10.784 - Hotkey registered: Hotkey: Ctrl + Shift + Alt + O, Description: Text capture (OCR), Job: TextCapture
+2022-06-09 13:52:10.788 - HotkeyManager started.
+2022-06-09 13:52:10.789 - WatchFolderManager started.
+2022-06-09 14:07:24.881 - ShareX starting.
+2022-06-09 14:07:24.881 - Version: 13.7 Portable
+2022-06-09 14:07:24.881 - Build: Release
+2022-06-09 14:07:24.881 - Command line: "E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Tools\..\Applications\ShareX-13.7.0-portable\ShareX.exe"
+2022-06-09 14:07:24.881 - Personal path: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX
+2022-06-09 14:07:24.881 - Personal path detection method: Portable file (E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\Portable)
+2022-06-09 14:07:24.881 - Operating system: Windows 10 Home Single Language (64-bit)
+2022-06-09 14:07:24.881 - Running as elevated process: False
+2022-06-09 14:07:24.928 - Flags: Portable
+2022-06-09 14:07:25.163 - ApplicationConfig load started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\ApplicationConfig.json
+2022-06-09 14:07:27.538 - ApplicationConfig load finished: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\ApplicationConfig.json
+2022-06-09 14:07:27.538 - UploadersConfig load started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\UploadersConfig.json
+2022-06-09 14:07:27.554 - MainForm init started.
+2022-06-09 14:07:28.007 - UploadersConfig load finished: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\UploadersConfig.json
+2022-06-09 14:07:28.007 - HotkeysConfig load started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\HotkeysConfig.json
+2022-06-09 14:07:28.382 - HotkeysConfig load finished: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\HotkeysConfig.json
+2022-06-09 14:07:28.492 - MainForm init finished.
+2022-06-09 14:07:28.758 - Startup time: 4456 ms
+2022-06-09 14:07:28.773 - Hotkey registered: Hotkey: Print Screen, Description: Capture region, Job: RectangleRegion
+2022-06-09 14:07:28.773 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2022-06-09 14:07:28.773 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2022-06-09 14:07:28.773 - Hotkey registered: Hotkey: Ctrl + Shift + Alt + C, Description: Upload from clipboard, Job: ClipboardUpload
+2022-06-09 14:07:28.773 - Hotkey registered: Hotkey: Ctrl + Shift + Alt + O, Description: Text capture (OCR), Job: TextCapture
+2022-06-09 14:07:28.789 - HotkeyManager started.
+2022-06-09 14:07:28.789 - WatchFolderManager started.
+2022-06-09 14:19:03.720 - ShareX closing.
+2022-06-09 14:19:03.736 - ApplicationConfig save started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\ApplicationConfig.json
+2022-06-09 14:19:04.534 - ApplicationConfig save successful: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\ApplicationConfig.json
+2022-06-09 14:19:04.534 - UploadersConfig save started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\UploadersConfig.json
+2022-06-09 14:19:04.627 - UploadersConfig save successful: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\UploadersConfig.json
+2022-06-09 14:19:04.643 - HotkeysConfig save started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\HotkeysConfig.json
+2022-06-09 14:19:04.799 - HotkeysConfig save successful: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\HotkeysConfig.json
+2022-06-09 14:19:04.799 - ShareX closed.
+2022-06-09 19:32:21.000 - ShareX starting.
+2022-06-09 19:32:21.016 - Version: 13.7 Portable
+2022-06-09 19:32:21.016 - Build: Release
+2022-06-09 19:32:21.016 - Command line: "E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Tools\..\Applications\ShareX-13.7.0-portable\ShareX.exe"
+2022-06-09 19:32:21.016 - Personal path: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX
+2022-06-09 19:32:21.016 - Personal path detection method: Portable file (E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\Portable)
+2022-06-09 19:32:21.016 - Operating system: Windows 10 Home Single Language (64-bit)
+2022-06-09 19:32:21.016 - Running as elevated process: False
+2022-06-09 19:32:21.031 - Flags: Portable
+2022-06-09 19:32:21.313 - ApplicationConfig load started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\ApplicationConfig.json
+2022-06-09 19:32:23.845 - ApplicationConfig load finished: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\ApplicationConfig.json
+2022-06-09 19:32:23.845 - UploadersConfig load started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\UploadersConfig.json
+2022-06-09 19:32:23.860 - MainForm init started.
+2022-06-09 19:32:24.543 - UploadersConfig load finished: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\UploadersConfig.json
+2022-06-09 19:32:24.559 - HotkeysConfig load started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\HotkeysConfig.json
+2022-06-09 19:32:25.012 - HotkeysConfig load finished: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\HotkeysConfig.json
+2022-06-09 19:32:25.074 - MainForm init finished.
+2022-06-09 19:32:25.340 - Startup time: 4833 ms
+2022-06-09 19:32:25.356 - Hotkey registered: Hotkey: Print Screen, Description: Capture region, Job: RectangleRegion
+2022-06-09 19:32:25.356 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2022-06-09 19:32:25.356 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2022-06-09 19:32:25.371 - Hotkey registered: Hotkey: Ctrl + Shift + Alt + C, Description: Upload from clipboard, Job: ClipboardUpload
+2022-06-09 19:32:25.371 - Hotkey registered: Hotkey: Ctrl + Shift + Alt + O, Description: Text capture (OCR), Job: TextCapture
+2022-06-09 19:32:25.371 - HotkeyManager started.
+2022-06-09 19:32:25.371 - WatchFolderManager started.
+2022-06-09 19:40:43.696 - ApplicationConfig save started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\ApplicationConfig.json
+2022-06-09 19:40:43.696 - HotkeysConfig save started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\HotkeysConfig.json
+2022-06-09 19:40:43.696 - UploadersConfig save started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\UploadersConfig.json
+2022-06-09 19:40:44.289 - UploadersConfig save successful: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\UploadersConfig.json
+2022-06-09 19:40:44.412 - HotkeysConfig save successful: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\HotkeysConfig.json
+2022-06-09 19:40:44.482 - Exception:
+System.IO.IOException: The process cannot access the file because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalReplace(String sourceFileName, String destinationFileName, String destinationBackupFileName, Boolean ignoreMetadataErrors)
+   at ShareX.HelpersLib.SettingsBase`1.SaveInternal(String filePath)
+2022-06-09 19:40:44.568 - ApplicationConfig save failed: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\ApplicationConfig.json
+2022-06-09 19:41:08.092 - ApplicationConfig save started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\ApplicationConfig.json
+2022-06-09 19:41:08.358 - ApplicationConfig save successful: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\ApplicationConfig.json
+2022-06-09 19:41:10.335 - CommandLine: -ImageEditor "C:\Users\anilm\Downloads\Images\maintenance.png"
+2022-06-09 19:41:10.345 - Executing: Image editor
+2022-06-09 20:53:37.525 - ApplicationConfig save started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\ApplicationConfig.json
+2022-06-09 20:53:37.525 - UploadersConfig save started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\UploadersConfig.json
+2022-06-09 20:53:37.525 - HotkeysConfig save started: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\HotkeysConfig.json
+2022-06-09 20:53:37.705 - UploadersConfig save successful: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\UploadersConfig.json
+2022-06-09 20:53:37.814 - HotkeysConfig save successful: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\HotkeysConfig.json
+2022-06-09 20:53:37.851 - ApplicationConfig save successful: E:\1 Megasync\my scripts\Github\AmazeX-AHK\Scripts\Applications\ShareX-13.7.0-portable\ShareX\ApplicationConfig.json
