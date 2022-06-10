@@ -1,7 +1,7 @@
 ﻿[Setup]
 AIVersion=9.0
 AIEdition=1
-GUID={025691B8-36BC-446F-9B54-4A4FE2C6A40A}
+GUID={F9F31389-C736-47AF-9C44-01FAC0EFEFF9}
 AppName=AmazeX AHK
 AppVersion=1.2.5
 AppDescription=
@@ -11,7 +11,7 @@ SupportLink=
 InstallLevel=1
 UpgradeMode=0
 IfInstalled=0
-RunAsAdmin=0
+RunAsAdmin=1
 Windows XP=1
 Windows Vista=1
 Windows 7=1
@@ -28,14 +28,17 @@ Windows Server 2019=1
 Windows Server 2022=1
 SystemType=0
 Internet=0
-CloseApp=0
-CloseAppFile=File.exe
-CloseAppText=App Name
+CloseApp=1
+CloseAppFile=ShareX.exe
+CloseAppText=ShareX
+CloseApp2=1
+CloseAppFile2=AutoHotkey.exe
+CloseAppText2=AutoHotkey
 PackageType=0
-SetupFolder=C:\Users\anilm\Documents\Actual Installer\<AppName>
+SetupFolder=C:\Users\anilm\Documents\Actual Installer\AmazeX AHK
 SetupFileName=Setup
 IconFile=Default
-SourceDir=E:\1 Megasync\my scripts\AmazeX AHK
+SourceDir=E:\1 Megasync\my scripts\Github\AmazeX-AHK
 InstallDir=<LocalAppData>\<AppName>
 MainExe=
 ProgramGroup=<AppName>
@@ -49,9 +52,9 @@ UninstallSettingsCommand=
 VisitUninstallPage=0
 UninstallURL=http://www.website.com/uninstall.html
 UninstallCloseMainExe=1
-UninstallCloseApp=0
-UninstallCloseAppFile=File.exe
-UninstallCloseAppText=App
+UninstallCloseApp=1
+UninstallCloseAppFile=ShareX.exe
+UninstallCloseAppText=ShareX
 Updater=0
 UpdateURL=http://www.website.com/update.txt
 CheckUpdateBefore=0
@@ -141,8 +144,8 @@ CustomActionCommand=<WebSite>
 CustomActionChecked=0
 CustomActionAdmin=0
 TotalFiles=1
-SourceDirFiles=640
-SourceDirSize=103407608
+SourceDirFiles=1403
+SourceDirSize=145871475
 
 [GUI]
 FontName=Consolas
@@ -157,6 +160,6 @@ LogoTransparent=0
 0=<AIDir>\Uninstall.exe?<InstallDir>\Uninstall.exe?1?1
 
 [Shortcuts]
-0=<Desktop>*?Install AmazeX Must Run*?<InstallDir>\Install AmazeX.lnk*?*?*?<InstallDir>*?*?0*?Normal*?No
-1=<StartUp>*?Launch AmazeX*?<InstallDir>\Launch AmazeX.lnk*?*?*?<InstallDir>*?*?0*?Normal*?No
+0=<ProgramsMenu>*?Launch AmazeX AHK*?<InstallDir>\Launch AmazeX AHK.lnk*?*?*?<InstallDir>*?*?0*?Normal*?No
+1=<ProgramGroup>*?Uninstall <AppName>*?<InstallDir>\Uninstall.exe*?*?*?<InstallDir>*?*?0*?Normal*?No
 
