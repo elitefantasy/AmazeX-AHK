@@ -25,13 +25,13 @@ echo.
 
 set currentpath=%~dp0
 @REM Making shortcut
-echo Set oWS = WScript.CreateObject("WScript.Shell") > CreateShortcut.vbs
-echo sLinkFile = "C:\Users\%UserName%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\AmazeX-main.lnk" >> CreateShortcut.vbs
-echo Set oLink = oWS.CreateShortcut(sLinkFile) >> CreateShortcut.vbs
-echo oLink.TargetPath = "%currentpath%\AmazeX-main.ahk" >> CreateShortcut.vbs
-echo oLink.Save >> CreateShortcut.vbs
-cscript CreateShortcut.vbs >> %logpath%
-del CreateShortcut.vbs
+@REM echo Set oWS = WScript.CreateObject("WScript.Shell") > CreateShortcut.vbs
+@REM echo sLinkFile = "C:\Users\%UserName%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\AmazeX-main.lnk" >> CreateShortcut.vbs
+@REM echo Set oLink = oWS.CreateShortcut(sLinkFile) >> CreateShortcut.vbs
+@REM echo oLink.TargetPath = "%currentpath%\AmazeX-main.ahk" >> CreateShortcut.vbs
+@REM echo oLink.Save >> CreateShortcut.vbs
+@REM cscript CreateShortcut.vbs >> %logpath%
+@REM del CreateShortcut.vbs
 
 echo "for help Do Read, Readme.md file from Github=>https://github.com/elitefantasy/Akm-s-Utility"
 echo "Script is now located in =>%currentpath%"
