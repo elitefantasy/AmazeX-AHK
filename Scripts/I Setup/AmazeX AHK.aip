@@ -145,7 +145,7 @@ CustomActionChecked=0
 CustomActionAdmin=0
 TotalFiles=1
 SourceDirFiles=641
-SourceDirSize=104643228
+SourceDirSize=104646013
 
 [GUI]
 FontName=Consolas
@@ -162,7 +162,7 @@ LogoTransparent=0
 [Shortcuts]
 0=<ProgramsMenu>*?<AppName>*?<MainExecutable>*?*?*?<InstallDir>\Scripts*?*?0*?Normal*?No
 1=<Desktop>*?<AppName>*?<MainExecutable>*?*?*?<InstallDir>\Scripts*?*?0*?Normal*?No
-2=<StartUp>*?AmazeX-main*?<InstallDir>\Scripts\AmazeX-main.exe*?*?*?<InstallDir>\Scripts*?<InstallDir>\Resources\Icons\AmazeX.ico*?0*?Normal*?No
+2=<StartUp>*?<AppName>*?<MainExecutable>*?*?*?<InstallDir>\Scripts*?<InstallDir>\Resources\Icons\AmazeX.ico*?0*?Normal*?No
 
 [FileOptions]
 0=.git\?D
