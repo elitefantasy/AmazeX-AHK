@@ -8,10 +8,10 @@ AppDescription=
 CompanyName=
 WebSite=
 SupportLink=
-InstallLevel=1
+InstallLevel=0
 UpgradeMode=0
 IfInstalled=0
-RunAsAdmin=1
+RunAsAdmin=0
 Windows XP=1
 Windows Vista=1
 Windows 7=1
@@ -145,7 +145,7 @@ CustomActionChecked=0
 CustomActionAdmin=0
 TotalFiles=1
 SourceDirFiles=641
-SourceDirSize=104648690
+SourceDirSize=104724890
 
 [GUI]
 FontName=Consolas
