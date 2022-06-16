@@ -1,0 +1,14 @@
+==============Hotkeys==================
+ctrl+r   :to reload the script itself
+ctrl+`   :to edit Main script in notepad
+ctrl+1   :to open utility gui
+ctrl+2   :open the directory where script is installed
+
+ctrl+alt+t    :to open terminal as adiminstrator
+ctrl+alt+k    :to open google keep
+
+=============Hotstrings=================
+@n            : yourName (add your name in script)
+@@            : yourEmail (add email in script for it to work)
+tick\         : ✔
+red\          : 🔴
