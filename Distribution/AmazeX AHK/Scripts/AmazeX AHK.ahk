@@ -51,8 +51,8 @@ Run, %A_ScriptDir%\Tools\AmazeX-clipper.ahk
 	Menu,Quick Access,Add,Startup LOC,StartupLoc
 	Menu,Quick Access,Icon,Startup LOC,%A_ScriptDir%\..\Resources\Icons\folder.ico
 
-	Menu,Quick Access,Add,Dev LOC,DevLoc
-	Menu,Quick Access,Icon,Dev LOC,%A_ScriptDir%\..\Resources\Icons\folder.ico
+	; Menu,Quick Access,Add,Dev LOC,DevLoc
+	; Menu,Quick Access,Icon,Dev LOC,%A_ScriptDir%\..\Resources\Icons\folder.ico
 
 	Menu,Tray,Add,
 	Menu,Tray,Add,Edit Script,EditScript

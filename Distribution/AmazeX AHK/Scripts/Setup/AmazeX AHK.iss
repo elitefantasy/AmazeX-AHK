@@ -2,8 +2,8 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "AmazeX AHK"
-#define MyAppVersion "1.2.6"
-#define MyAppPublisher "AKM"
+#define MyAppVersion "1.2.7"
+#define MyAppPublisher "EliteFantasy"
 #define MyAppURL "https://github.com/elitefantasy/AmazeX-AHK"
 #define MyAppExeName "AmazeX AHK.exe"
 
@@ -23,12 +23,13 @@ DisableDirPage=yes
 DisableProgramGroupPage=yes
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
-OutputDir=C:\Users\anilm\Documents\Inno Setup Output
+OutputDir=E:\3 Programing\Github\AmazeX-AHK\Distribution\AmazeX AHK\Scripts\Setup
 OutputBaseFilename=Setup
-SetupIconFile="E:\1 Megasync\my scripts\Github\AmazeX-AHK\Distribution\AmazeX AHK\Resources\Icons\AmazeX.ico"
+SetupIconFile="E:\3 Programing\Github\AmazeX-AHK\Distribution\AmazeX AHK\Resources\Icons\AmazeX.ico"
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
+UninstallDisplayIcon={app}\Scripts\AmazeX AHK.exe
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -37,13 +38,11 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "E:\1 Megasync\my scripts\Github\AmazeX-AHK\Distribution\AmazeX AHK\Scripts\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\1 Megasync\my scripts\Github\AmazeX-AHK\Distribution\AmazeX AHK\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "E:\3 Programing\Github\AmazeX-AHK\Distribution\AmazeX AHK\Scripts\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "E:\3 Programing\Github\AmazeX-AHK\Distribution\AmazeX AHK\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
-;Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
-;Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
 Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\Scripts\AmazeX AHK.exe"
 Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\Scripts\AmazeX AHK.exe"; Tasks: desktopicon
 ;creating shortcut
@@ -55,6 +54,6 @@ Filename: "{app}\Scripts\Installer.bat"; Description: "Launch Program"; Flags: n
 Filename: "{app}\Scripts\AmazeX AHK.ahk"; Description: "Launch Program"; Flags: nowait postinstall shellexec
 
 [UninstallRun]
-Filename: "{cmd}"; Parameters: "/C ""taskkill /im ShareX.exe /f /t"
-Filename: "{cmd}"; Parameters: "/C ""taskkill /im AutoHotkey.exe /f /t"
-Filename: "{cmd}"; Parameters: "/C ""taskkill /im 'AmazeX AHK.exe' /f /t"
+;Filename: "{cmd}"; Parameters: "/C ""taskkill /im ShareX.exe /f /t"
+Filename: "{cmd}"; Parameters: "/C ""taskkill /im AutoHotkey.exe /f /t &exit"
+Filename: "{cmd}"; Parameters: "/C ""taskkill /im 'AmazeX AHK.exe' /f /t &exit"
