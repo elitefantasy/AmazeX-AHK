@@ -74,22 +74,19 @@ call RefreshEnv.cmd >> %logpath%
 echo.
 echo.
 echo.
-echo "installing autohotkey, 7zip, Pls wait.... may take time depending on internet speed!!"
-choco install autohotkey 7zip --yes >> %logpath%
+echo "installing autohotkey, 7zip,Sharex Pls wait.... may take time depending on internet speed!!"
+choco install --force autohotkey --yes >> %logpath%
+echo "autohokey installed (1/3) installed"
+choco install --force 7zip --yes >> %logpath%
+echo "7zip installed (2/3) installed"
+choco install --force sharex --yes >> %logpath%
+echo "sharex installed (3/3) installed"
 echo.
 echo.
 echo.
 
 
 set currentpath=%~dp0
-@REM Making shortcut
-@REM echo Set oWS = WScript.CreateObject("WScript.Shell") > CreateShortcut.vbs
-@REM echo sLinkFile = "C:\Users\%UserName%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\AmazeX-AHK.lnk" >> CreateShortcut.vbs
-@REM echo Set oLink = oWS.CreateShortcut(sLinkFile) >> CreateShortcut.vbs
-@REM echo oLink.TargetPath = "%currentpath%\AmazeX-main.exe" >> CreateShortcut.vbs
-@REM echo oLink.Save >> CreateShortcut.vbs
-@REM cscript CreateShortcut.vbs >> %logpath%
-@REM del CreateShortcut.vbs
 
 echo "for help Do Read, Readme.md file from Github=>https://github.com/elitefantasy/Akm-s-Utility"
 echo "Script is now located in =>%currentpath%"
@@ -101,4 +98,3 @@ echo "| | | | | | | | | (_| |/ /  __/ /^\ \ | |_| | |_| | | | |_| |_| |"
 echo "\_| |_/_| |_| |_|\__,_/___\___\/   \/  \___/ \__|_|_|_|\__|\__, |"
 echo "                                                            __/ |"
 echo "                                                           |___/ "
-@REM start "" "%currentpath%\AmazeX-main.ahk" >> %logpath%
