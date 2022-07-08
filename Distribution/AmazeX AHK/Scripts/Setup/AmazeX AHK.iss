@@ -24,7 +24,7 @@ DisableProgramGroupPage=yes
 ; Remove the following line to run in administrative install mode (install for all users.)
 PrivilegesRequired=lowest
 OutputDir=E:\3 Programing\Github\AmazeX-AHK\Distribution\AmazeX AHK\Scripts\Setup
-OutputBaseFilename=Setup
+OutputBaseFilename=AmazeX_AHK_Setup
 SetupIconFile="E:\3 Programing\Github\AmazeX-AHK\Distribution\AmazeX AHK\Resources\Icons\AmazeX.ico"
 Compression=lzma
 SolidCompression=yes
