@@ -8,8 +8,8 @@ SetWorkingDir %A_ScriptDir%
         Menu, Tray, Icon, %I_Icon%
     	; return
 
-
-Run, %A_ScriptDir%\..\Applications\ShareX-13.7.0-portable\ShareX.exe
+; deprecated instead using user installed sharex
+; Run, %A_ScriptDir%\..\Applications\ShareX-13.7.0-portable\ShareX.exe
 
 ;_________________________________________________
 ;Menu Added By AKM
@@ -17,31 +17,35 @@ Run, %A_ScriptDir%\..\Applications\ShareX-13.7.0-portable\ShareX.exe
 
 IconFolderPath = %A_ScriptDir%\..\..\Resources\Icons
 ScreenshotPath = C:\Users\%UserName%\Pictures\Screen-clipper
-ShareXExePath = %A_ScriptDir%\..\Applications\ShareX-13.7.0-portable\ShareX.exe
+; ShareXExePath = %A_ScriptDir%\..\Applications\ShareX-13.7.0-portable\ShareX.exe ;deprecated
+ShareXIconPath=%IconFolderPath%\sharex.ico
 
 Menu, Tray, NoStandard
 Menu, Tray, Add, Clipscreen,CreateCapWindow ; label used here is from the original script
 Menu, Tray, Icon, Clipscreen, %IconFolderPath%\AmazeX-clipper.ico
 
 Menu, Tray, Add, Take Screenshot,Capture_Screen_Sharex
-Menu, Tray, Icon, Take Screenshot, %ShareXExePath%
+Menu, Tray, Icon, Take Screenshot, %ShareXIconPath%
 
 Menu, Tray, Add, Record Screen,Record_Screen_Sharex
-Menu, Tray, Icon, Record Screen, %ShareXExePath%
+Menu, Tray, Icon, Record Screen, %ShareXIconPath%
 
 Menu, Tray, Add, Record Gif,Record_Gif_Sharex
-Menu, Tray, Icon, Record Gif, %ShareXExePath%
+Menu, Tray, Icon, Record Gif, %ShareXIconPath%
 
 Menu, Tray, Add, Send to Imgur,send_to_imgur
-Menu, Tray, Icon, Send to Imgur, %ShareXExePath%
+Menu, Tray, Icon, Send to Imgur, %ShareXIconPath%
 
 Menu, Tray, Add, OCR, ocr
-Menu, Tray, Icon, OCR, %ShareXExePath%
+Menu, Tray, Icon, OCR, %ShareXIconPath%
 
 Menu, Tray, Add, Open Screenshot Folder,OpenFolder
 Menu, Tray, Icon, Open Screenshot Folder, %IconFolderPath%\folder.ico
 Menu, Tray, Default, Open Screenshot Folder
 Menu, Tray, Click, 1
+
+Menu, Tray, Add, Open ShareX BackupFolder,Open_ShareX_Backup_Folder
+Menu, Tray, Icon, Open ShareX BackupFolder, %IconFolderPath%\folder.ico
 
 Menu, Tray, Add,
 Menu, Tray, Add, Pause, Pause
@@ -95,9 +99,12 @@ Return
 ; Clipscreen:
 ; send, #c
 ; Return
+Open_ShareX_Backup_Folder:
+Run, %A_ScriptDir%\..\sharexConfigFiles
+Return
 Capture_Screen_Sharex:
 Sleep, 300
-	send, {PrintScreen}
+	send, ^{PrintScreen}
 	Return
 Record_Gif_Sharex:
 	Sleep, 300
